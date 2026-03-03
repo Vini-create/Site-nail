@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freire's Nail Design</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Freire's Nail Design</h1>
+   
+   
+   
+    <p>Agende seu horário com facilidade </p>
+</header>
+
+<section class="section">
+    <h2>Quem somos</h2>
+    <div class="Quem">
+       <div class="card">
+            <h4>Um pouco da minha história...</h4>
+            <p>Aqui ficaria um pouco da historia da nail designer e se como foi crieado o empreendimento</p>
+        </div> 
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>Alguns de nossos trabalhos:</h2>
+    <div class="galeria">
+        <img src="img/unha1.jpg" alt="Serviço 1">
+        
+    
+        <img src="img/pe1.jpg" alt="Serviço 2">
+        
+
+        <img src="img/unha3.jpg" alt="Serviço 3">
+
+        <img src="img/unha2.jpg" alt="Serviço 4">
+    </div>
+
+
+</section>
+
+<section class="section">
+    <h2>Feedbacks de clientes:</h2>
+
+
+</section>
+
+
+<section class="section">
+    <h2>Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Manicure Simples</h3>
+            <p>R$ 30,00</p>
+        </div>
+        <div class="card">
+            <h3>Pedicure</h3>
+            <p>R$ 35,00</p>
+        </div>
+        <div class="card">
+            <h3>Alongamento em Gel</h3>
+            <p>R$ 120,00</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Agendamento</h2>
+    <form id="agendamentoForm">
+        <input type="text" placeholder="Seu nome" required>
+        
+        <input type="tel" placeholder="Telefone" required>
+        
+        <select required>
+            <option value="">Escolha o serviço</option>
+            <option>Manicure Simples</option>
+            <option>Pedicure</option>
+            <option>Alongamento em Gel</option>
+        </select>
+
+        <input type="date" required>
+        <input type="time" required>
+
+        <button type="submit">Agendar</button>
+
+        <div class="success" id="mensagem"></div>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Studio Bella Nails</p>
+</footer>
+
+<script>
+document.getElementById("agendamentoForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("mensagem").innerText = "Agendamento realizado com sucesso! 💖";
+});
+</script>
+
+</body>
+</html>

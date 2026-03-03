@@ -1,0 +1,118 @@
+
+
+body {
+    background-image: url(img/bg1.jpg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background-color: #5559c4e9;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    /*background: #122da5c4;*/
+    color: white;
+    text-align: center;
+    padding: 200px 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 70px;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.Quem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+}
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(250, 247, 247, 0.863);
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    max-width: 200px;
+    max-height: 270px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.card h3 {
+    color: black;
+}
+
+.card p {
+    color: black;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #122da5c4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #122da5c4;
+}
+
+footer {
+    background: #122da5c4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
